@@ -1,0 +1,49 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+:root {
+    --Color1: #5EAFF2;
+    --Color2: #f02b97;
+    --Color4: #e9468f;
+    --Color3:  rgb(229, 71, 229);
+}
+
+body {
+    background: linear-gradient(to bottom right, var(--Color3), rgb(0, 0, 0) );
+}
+
+#header1, h1 {
+    color: var(--Color4) ;
+    background: linear-gradient( var(--Color3));
+    padding: 1%;
+    
+}
+
+p {
+    color: var(--Color1);
+
+}
+
+img {
+    width: 250px;
+    background-color: var(--Color4);
+    padding: 1%;
+}
+
+#Subheading {
+    font-weight: 200;
+    text-decoration: underline;
+    color: var(--Color3);
+}
+
+.centerIt {
+    text-align: center;
+}
+
+@media screen and (max-width: 300px) {
+   body{
+    background: linear-gradient(to bottom right, green, rgb(0, 0, 0) );
+   } 
+}
